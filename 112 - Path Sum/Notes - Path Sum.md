@@ -80,6 +80,9 @@ in the stack, but to store tuples that contain extra data
   point of traversing, which is useful when the nodes have left and right 
   children and we need to separately calculate the branching path sums- storing
   the relative path sums makes this very easy to do
+    * So instead of passing data up and down a call stack like we would with
+    recursion, we can save the "state" at that moment and store it in the tuple
+    for easy access later
 
 * So all in all, it will be a good remember this technique of storing extra bits 
 of data in our implementation that helps keep track of program state
