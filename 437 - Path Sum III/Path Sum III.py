@@ -9,6 +9,10 @@ class Solution:
         if not root:
             return 0
         
+        # Note: this is essentially a brute force algorithm that traverses every
+        # node and calculates all possible path sums for each node. There 
+        # should be plenty of ways to improve the efficiency of this algorithm
+        
         equalPaths = 0
         stack = [(root, [root.val])]
         

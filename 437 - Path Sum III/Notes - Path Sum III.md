@@ -60,3 +60,5 @@ along the way
 * This may be a half-baked thought, but is it possible to improve the efficiency
 of this step? Maybe we can do something resembling memoization that would allow
 us to skip over some of the calculations- need to consider this further
+
+**Note**: the above is essentially a brute force algorithm
