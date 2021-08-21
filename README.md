@@ -19,3 +19,7 @@ projects that might use the language.
 230 - [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
 437 - [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+
+
+### Dynamic Programming
+62 - [Unique Paths](https://leetcode.com/problems/unique-paths/) 
